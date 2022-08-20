@@ -1,0 +1,31 @@
+name: OnlyChat
+main: me.FortiBrine.OnlyChat.main.Main
+version: 0.1
+
+api-version: 1.13
+
+permissions:
+  onlychat.*:
+    children:
+      onlychat.capsbypass: true
+      onlychat.relod: true
+      onlychat.color: true
+      onlychat.clear: true
+      onlychat.pause: true
+      onlychat.resume: true
+  onlychat.capsbypass:
+    default: op
+  onlychat.reload:
+    default: op
+  onlychat.color:
+    default: op
+  onlychat.clear:
+    default: op
+  onlychat.pause:
+    default: op
+  onlychat.resume:
+    default: op
+
+commands:
+  onlychat:
+    aliases: [oc, chat]

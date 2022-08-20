@@ -1,0 +1,16 @@
+chat: "%worldscolor_placeholder%%player: %message"
+raw: true
+caps: true
+
+messages:
+  command_usage:
+   - "&7Руководство по использованию &fOnlyChat"
+   - "&7 - /onlychat reload - перезагрузить конфиг"
+   - "&7 - /onlychat clear - очистить чат"
+   - "&7 - /onlychat pause - поставить на паузу чат"
+   - "&7 - /onlychat resume - снять с паузы чат"
+  non_permission: "&4Ошибка:&f У вас нет прав!"
+  reload: "&4Информация:&f Конфигурация перезагружена!"
+  clear: "&7Чат очищен!"
+  pause: "&7Чат поставлен на паузу!"
+  resume: "&7Чат снят с паузы!"
